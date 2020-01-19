@@ -11,9 +11,11 @@ function setup(){
 
 
 
-  tower1 = new Tower1(620,200,80,200);
-  tower2 = new Tower1(780,200,80,200);
- tower3 = new Tower1(700,200,80,300);
+  tower1 = new Tower1(720,200,80,200);
+  tower2 = new Tower1(880,200,80,200);
+ tower3 = new Tower1(800,200,80,300);
+ tower4 = new Tower1(660,200,20,350);
+ tower5 = new Tower1(940,200,20,350);
  tri = new Cone(800,200,3,50);
   //tower2 = new Tower1(600,320,20,100);
   Gr = new Ground(600,380,1200,20);
@@ -26,6 +28,9 @@ function draw(){
   tower1.display();
   tower2.display();
   tower3.display();
+  tower4.display();
+  tower5.display();
+ 
   tri.display();
 Gr.display();
 }
